@@ -72,101 +72,224 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="64.0"/>
-    <comp lib="0" loc="(140,280)" name="Pin">
+    <comp lib="0" loc="(240,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="width" val="10"/>
+      <a name="width" val="30"/>
     </comp>
-    <comp lib="0" loc="(370,150)" name="Constant">
+    <comp lib="0" loc="(260,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(370,110)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="10" loc="(320,80)" name="Slider">
+    <comp lib="10" loc="(320,40)" name="Slider">
       <a name="width" val="3"/>
     </comp>
-    <comp lib="10" loc="(370,130)" name="Switch">
+    <comp lib="10" loc="(370,90)" name="Switch">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="5" loc="(160,210)" name="DotMatrix">
+    <comp lib="5" loc="(300,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(170,210)" name="DotMatrix">
+    <comp lib="5" loc="(310,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(180,210)" name="DotMatrix">
+    <comp lib="5" loc="(320,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(190,210)" name="DotMatrix">
+    <comp lib="5" loc="(320,310)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(200,210)" name="DotMatrix">
+    <comp lib="5" loc="(330,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(310,220)" name="DotMatrix">
+    <comp lib="5" loc="(330,310)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(320,220)" name="DotMatrix">
+    <comp lib="5" loc="(330,80)" name="Button"/>
+    <comp lib="5" loc="(340,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(330,120)" name="Button"/>
-    <comp lib="5" loc="(330,220)" name="DotMatrix">
+    <comp lib="5" loc="(340,310)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(330,320)" name="DotMatrix">
+    <comp lib="5" loc="(350,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(340,220)" name="DotMatrix">
+    <comp lib="5" loc="(350,310)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(340,320)" name="DotMatrix">
+    <comp lib="5" loc="(360,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(350,220)" name="DotMatrix">
+    <comp lib="5" loc="(360,220)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(350,320)" name="DotMatrix">
+    <comp lib="5" loc="(360,310)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(360,320)" name="DotMatrix">
+    <comp lib="5" loc="(370,170)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp lib="5" loc="(370,320)" name="DotMatrix">
+    <comp lib="5" loc="(370,220)" name="DotMatrix">
       <a name="matrixcols" val="1"/>
       <a name="matrixrows" val="1"/>
     </comp>
-    <comp loc="(200,220)" name="TRYTE_DISPLAY"/>
-    <comp loc="(300,260)" name="TRYTE_SHIFT_LEFT"/>
-    <comp loc="(300,340)" name="TRYTE_SHIFT_RIGHT"/>
-    <comp loc="(350,230)" name="TRYTE_DISPLAY"/>
-    <comp loc="(370,330)" name="TRYTE_DISPLAY"/>
-    <comp loc="(380,70)" name="CLK"/>
-    <wire from="(140,270)" to="(140,280)"/>
-    <wire from="(140,270)" to="(160,270)"/>
-    <wire from="(140,280)" to="(140,340)"/>
-    <wire from="(140,340)" to="(270,340)"/>
-    <wire from="(160,220)" to="(160,270)"/>
-    <wire from="(160,270)" to="(270,270)"/>
-    <wire from="(270,260)" to="(270,270)"/>
-    <wire from="(300,260)" to="(310,260)"/>
-    <wire from="(300,340)" to="(330,340)"/>
-    <wire from="(310,230)" to="(310,260)"/>
-    <wire from="(320,80)" to="(350,80)"/>
-    <wire from="(330,120)" to="(360,120)"/>
-    <wire from="(330,330)" to="(330,340)"/>
-    <wire from="(360,90)" to="(360,120)"/>
-    <wire from="(370,90)" to="(370,130)"/>
+    <comp lib="5" loc="(370,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(380,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(380,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(380,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(390,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(390,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(390,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(400,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(400,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(400,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(410,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(410,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(410,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(420,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(420,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(420,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(430,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(430,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(430,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(440,170)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(440,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(440,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(450,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(450,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(460,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(460,310)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(470,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(480,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(490,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp lib="5" loc="(500,220)" name="DotMatrix">
+      <a name="matrixcols" val="1"/>
+      <a name="matrixrows" val="1"/>
+    </comp>
+    <comp loc="(300,170)" name="T15_DISPLAY"/>
+    <comp loc="(300,230)" name="T15_SUBTRACTOR"/>
+    <comp loc="(320,310)" name="T15_DISPLAY"/>
+    <comp loc="(360,220)" name="T15_DISPLAY"/>
+    <comp loc="(380,30)" name="CLK"/>
+    <wire from="(240,200)" to="(290,200)"/>
+    <wire from="(260,300)" to="(290,300)"/>
+    <wire from="(290,200)" to="(290,220)"/>
+    <wire from="(290,200)" to="(300,200)"/>
+    <wire from="(290,250)" to="(290,300)"/>
+    <wire from="(290,300)" to="(290,340)"/>
+    <wire from="(290,340)" to="(320,340)"/>
+    <wire from="(300,180)" to="(300,200)"/>
+    <wire from="(310,250)" to="(360,250)"/>
+    <wire from="(320,320)" to="(320,340)"/>
+    <wire from="(320,40)" to="(350,40)"/>
+    <wire from="(330,80)" to="(360,80)"/>
+    <wire from="(360,230)" to="(360,250)"/>
+    <wire from="(360,50)" to="(360,80)"/>
+    <wire from="(370,50)" to="(370,90)"/>
   </circuit>
   <circuit name="T_AND">
     <a name="circuit" val="T_AND"/>
@@ -1421,7 +1544,6 @@
     <comp lib="0" loc="(120,230)" name="Constant"/>
     <comp lib="0" loc="(120,360)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="radix" val="16"/>
       <a name="width" val="10"/>
     </comp>
     <comp lib="0" loc="(120,360)" name="Splitter">
@@ -1518,5 +1640,465 @@
     <wire from="(260,190)" to="(260,240)"/>
     <wire from="(290,260)" to="(290,300)"/>
     <wire from="(300,190)" to="(300,240)"/>
+  </circuit>
+  <circuit name="T15_ADDER">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="T15_ADDER"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="64.0"/>
+    <appear>
+      <rect fill="none" height="30" stroke="#000000" width="30" x="120" y="80"/>
+      <circ-anchor facing="east" x="140" y="100"/>
+      <circ-port dir="in" pin="360,180" x="120" y="90"/>
+      <circ-port dir="in" pin="410,140" x="130" y="80"/>
+      <circ-port dir="in" pin="410,240" x="130" y="110"/>
+      <circ-port dir="out" pin="180,270" x="150" y="110"/>
+      <circ-port dir="out" pin="200,180" x="150" y="90"/>
+    </appear>
+    <comp lib="0" loc="(180,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="output" val="true"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(200,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="output" val="true"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(200,220)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="2"/>
+      <a name="bit21" val="2"/>
+      <a name="bit22" val="2"/>
+      <a name="bit23" val="2"/>
+      <a name="bit24" val="2"/>
+      <a name="bit25" val="2"/>
+      <a name="bit26" val="2"/>
+      <a name="bit27" val="2"/>
+      <a name="bit28" val="2"/>
+      <a name="bit29" val="2"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="facing" val="north"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="30"/>
+      <a name="spacing" val="6"/>
+    </comp>
+    <comp lib="0" loc="(360,150)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="2"/>
+      <a name="bit21" val="2"/>
+      <a name="bit22" val="2"/>
+      <a name="bit23" val="2"/>
+      <a name="bit24" val="2"/>
+      <a name="bit25" val="2"/>
+      <a name="bit26" val="2"/>
+      <a name="bit27" val="2"/>
+      <a name="bit28" val="2"/>
+      <a name="bit29" val="2"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="30"/>
+      <a name="spacing" val="6"/>
+    </comp>
+    <comp lib="0" loc="(360,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(360,230)" name="Splitter">
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="2"/>
+      <a name="bit21" val="2"/>
+      <a name="bit22" val="2"/>
+      <a name="bit23" val="2"/>
+      <a name="bit24" val="2"/>
+      <a name="bit25" val="2"/>
+      <a name="bit26" val="2"/>
+      <a name="bit27" val="2"/>
+      <a name="bit28" val="2"/>
+      <a name="bit29" val="2"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="facing" val="north"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="30"/>
+      <a name="spacing" val="6"/>
+    </comp>
+    <comp lib="0" loc="(410,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(410,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp loc="(230,180)" name="TRYTE_ADDER"/>
+    <comp loc="(290,180)" name="TRYTE_ADDER"/>
+    <comp loc="(350,180)" name="TRYTE_ADDER"/>
+    <wire from="(180,270)" to="(200,270)"/>
+    <wire from="(200,180)" to="(210,180)"/>
+    <wire from="(200,220)" to="(200,270)"/>
+    <wire from="(230,200)" to="(230,210)"/>
+    <wire from="(240,180)" to="(270,180)"/>
+    <wire from="(290,200)" to="(290,210)"/>
+    <wire from="(300,180)" to="(330,180)"/>
+    <wire from="(350,200)" to="(350,210)"/>
+    <wire from="(360,150)" to="(400,150)"/>
+    <wire from="(360,230)" to="(400,230)"/>
+    <wire from="(400,140)" to="(400,150)"/>
+    <wire from="(400,140)" to="(410,140)"/>
+    <wire from="(400,230)" to="(400,240)"/>
+    <wire from="(400,240)" to="(410,240)"/>
+  </circuit>
+  <circuit name="T15_DISPLAY">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="T15_DISPLAY"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="64.0"/>
+    <appear>
+      <rect fill="none" height="11" stroke="#000000" width="143" x="99" y="49"/>
+      <circ-anchor facing="east" x="100" y="50"/>
+      <circ-port dir="in" pin="420,240" x="100" y="60"/>
+      <circ-port dir="out" pin="430,210" x="100" y="50"/>
+      <circ-port dir="out" pin="440,210" x="110" y="50"/>
+      <circ-port dir="out" pin="450,210" x="120" y="50"/>
+      <circ-port dir="out" pin="460,210" x="130" y="50"/>
+      <circ-port dir="out" pin="470,210" x="140" y="50"/>
+      <circ-port dir="out" pin="480,210" x="150" y="50"/>
+      <circ-port dir="out" pin="490,210" x="160" y="50"/>
+      <circ-port dir="out" pin="500,210" x="170" y="50"/>
+      <circ-port dir="out" pin="510,210" x="180" y="50"/>
+      <circ-port dir="out" pin="520,210" x="190" y="50"/>
+      <circ-port dir="out" pin="530,210" x="200" y="50"/>
+      <circ-port dir="out" pin="540,210" x="210" y="50"/>
+      <circ-port dir="out" pin="550,210" x="220" y="50"/>
+      <circ-port dir="out" pin="560,210" x="230" y="50"/>
+      <circ-port dir="out" pin="570,210" x="240" y="50"/>
+    </appear>
+    <comp lib="0" loc="(420,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(420,240)" name="Splitter">
+      <a name="appear" val="right"/>
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="2"/>
+      <a name="bit21" val="2"/>
+      <a name="bit22" val="2"/>
+      <a name="bit23" val="2"/>
+      <a name="bit24" val="2"/>
+      <a name="bit25" val="2"/>
+      <a name="bit26" val="2"/>
+      <a name="bit27" val="2"/>
+      <a name="bit28" val="2"/>
+      <a name="bit29" val="2"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="facing" val="north"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="30"/>
+      <a name="spacing" val="5"/>
+    </comp>
+    <comp lib="0" loc="(430,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(440,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(450,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(460,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(470,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(480,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(490,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(500,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(510,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(520,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(530,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(540,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(550,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(560,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(570,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp loc="(470,220)" name="TRYTE_DISPLAY"/>
+    <comp loc="(520,220)" name="TRYTE_DISPLAY"/>
+    <comp loc="(570,220)" name="TRYTE_DISPLAY"/>
+  </circuit>
+  <circuit name="T15_SUBTRACTOR">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="T15_SUBTRACTOR"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="64.0"/>
+    <appear>
+      <rect fill="none" height="30" stroke="#000000" width="30" x="50" y="50"/>
+      <circ-anchor facing="east" x="70" y="60"/>
+      <circ-port dir="in" pin="300,270" x="60" y="80"/>
+      <circ-port dir="in" pin="310,180" x="60" y="50"/>
+      <circ-port dir="in" pin="340,220" x="50" y="60"/>
+      <circ-port dir="out" pin="370,220" x="80" y="60"/>
+      <circ-port dir="out" pin="380,270" x="80" y="80"/>
+    </appear>
+    <comp lib="0" loc="(300,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(310,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(340,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(370,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(380,270)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp loc="(330,270)" name="T15_NOT"/>
+    <comp loc="(360,230)" name="T15_ADDER"/>
+    <wire from="(310,180)" to="(350,180)"/>
+    <wire from="(330,270)" to="(350,270)"/>
+    <wire from="(350,180)" to="(350,210)"/>
+    <wire from="(350,240)" to="(350,270)"/>
+    <wire from="(370,240)" to="(370,270)"/>
+    <wire from="(370,270)" to="(380,270)"/>
+  </circuit>
+  <circuit name="T15_NOT">
+    <a name="appearance" val="custom"/>
+    <a name="circuit" val="T15_NOT"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="64.0"/>
+    <appear>
+      <rect fill="none" height="10" stroke="#000000" width="31" x="49" y="45"/>
+      <circ-anchor facing="east" x="80" y="50"/>
+      <circ-port dir="in" pin="300,210" x="50" y="50"/>
+      <circ-port dir="out" pin="370,280" x="80" y="50"/>
+    </appear>
+    <comp lib="0" loc="(300,210)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp lib="0" loc="(300,210)" name="Splitter">
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="2"/>
+      <a name="bit21" val="2"/>
+      <a name="bit22" val="2"/>
+      <a name="bit23" val="2"/>
+      <a name="bit24" val="2"/>
+      <a name="bit25" val="2"/>
+      <a name="bit26" val="2"/>
+      <a name="bit27" val="2"/>
+      <a name="bit28" val="2"/>
+      <a name="bit29" val="2"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="30"/>
+    </comp>
+    <comp lib="0" loc="(340,280)" name="Splitter">
+      <a name="bit1" val="0"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit2" val="0"/>
+      <a name="bit20" val="2"/>
+      <a name="bit21" val="2"/>
+      <a name="bit22" val="2"/>
+      <a name="bit23" val="2"/>
+      <a name="bit24" val="2"/>
+      <a name="bit25" val="2"/>
+      <a name="bit26" val="2"/>
+      <a name="bit27" val="2"/>
+      <a name="bit28" val="2"/>
+      <a name="bit29" val="2"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="facing" val="north"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="30"/>
+    </comp>
+    <comp lib="0" loc="(370,280)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="radix" val="16"/>
+      <a name="width" val="30"/>
+    </comp>
+    <comp loc="(310,260)" name="TRYTE_NOT">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp loc="(320,260)" name="TRYTE_NOT">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp loc="(330,260)" name="TRYTE_NOT">
+      <a name="facing" val="south"/>
+    </comp>
+    <wire from="(340,280)" to="(370,280)"/>
   </circuit>
 </project>
